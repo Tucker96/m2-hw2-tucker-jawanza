@@ -1,0 +1,128 @@
+ /*Header Styles  */
+
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     background-color: #fffff8;
+     font-family: 'Titillium Web', sans-serif;
+ }
+
+ /* li,
+ a,
+ button,
+ {
+ font-weight: 400;
+ font-size: 16px;
+ color: white;
+ text-decoration: none;
+ } */
+
+ header {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     padding: 20px 5%;
+ }
+
+ .logo {
+     width: 148px;
+     height: 113px
+ }
+
+ .mood-board {
+     min-width: 120px;
+ }
+
+ .link-color {
+     color: black;
+ }
+
+
+ .nav-links li {
+     display: inline-block;
+     padding: 0 20px;
+ }
+
+ .nav-links li a {
+     text-decoration: none;
+ }
+
+ .nav-links li a {
+     transition: all 0.3s ease 0s;
+ }
+
+ .nav-links li a:hover {
+     transition: all 0.3s ease 0s;
+     color: #0088a9;
+ }
+
+ button {
+     padding: 9px 25px;
+     background-color: #0088a9;
+     border: none;
+     border-radius: 50px;
+     transition: all 0.3s ease 0s;
+     cursor: wait;
+ }
+
+
+ button:hover {
+     color: white;
+     background-color: rgba(0, 136, 169, 0.8);
+ }
+
+ /* End of Header Content Styling */
+
+ /* Body edits */
+
+ /* .profile-img {
+    background-image: cover;
+    max-width: 500px
+} */
+
+ .hero-image {
+     background-image: url("/assets/images/TUK03663.jpg");
+     background-size: cover;
+     background-position: 40%;
+     text-align: center;
+     min-width: 10em;
+     min-height: 400px;
+ }
+
+ .content-text h2 {
+     padding: 10px 0;
+ }
+
+ .hobbies-text,
+ .career-text,
+ .intro-text,
+ .interests-text {
+     max-width: 50em;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 2em;
+ }
+
+
+ .masthead {
+     text-align: center;
+     padding: 3em 0;
+     /* background-image: url("/assets/images/TUK00106.jpeg"); */
+     border-top: solid 1em #FFCF33;
+ }
+
+ .masthead-intro {
+     margin-bottom: 0.1em;
+ }
+
+
+ .content-container {
+     max-width: 38em;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 2em;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-bottom: 60px;
+ }
