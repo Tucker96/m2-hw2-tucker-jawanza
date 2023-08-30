@@ -82,7 +82,7 @@
 } */
 
  .hero-image {
-     background-image: url("/assets/images/tuksquare.jpg");
+     background-image: url("https://tucker96.github.io/m2-hw2-tucker-jawanza/assets/images/tuksquare.jpg");
      background-size: cover;
      background-position: 40%;
      text-align: center;
