@@ -81,23 +81,14 @@
     max-width: 500px
 } */
 
- /* .hero-image {
+ .hero-image {
      background-image: url("/assets/images/tuksquare.jpg");
      background-size: cover;
      background-position: 40%;
      text-align: center;
      min-width: 10em;
      min-height: 400px;
- } */
-
- .hero-image {
-    background-image: url("/assets/images/TUK00106.jpeg");
-    background-size: cover;
-    background-position: 40%;
-    text-align: center;
-    min-width: 10em;
-    min-height: 400px;
-}
+ }
 
  .content-text h2 {
      padding: 10px 0;
